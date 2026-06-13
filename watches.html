@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Watches Collection</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#f4f6f8;
+}
+
+/* HEADER */
+.header{
+background:linear-gradient(135deg,#111827,#2563eb);
+color:white;
+padding:20px;
+text-align:center;
+font-size:24px;
+font-weight:bold;
+}
+
+.container{
+padding:30px;
+}
+
+/* BACK BUTTON */
+.back{
+padding:10px 15px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin-bottom:20px;
+}
+
+.back:hover{
+background:#1e40af;
+}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
+/* CARD */
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:150px;
+object-fit:cover;
+}
+
+.card h3{
+margin:8px 0;
+font-size:15px;
+}
+
+.price{
+color:green;
+font-weight:bold;
+margin-bottom:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+Smart Watches Collection
+</div>
+
+<div class="container">
+
+<!-- BACK -->
+<button class="back" onclick="location.href='product.php'">Back</button>
+
+<div class="grid">
+
+<!-- 1 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+<h3>Apple Watch Series 9</h3>
+<p class="price">39999</p>
+</div>
+
+<!-- 2 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12">
+<h3>Samsung Galaxy Watch 6</h3>
+<p class="price">29999</p>
+</div>
+
+<!-- 3 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314">
+<h3>Noise ColorFit Pro</h3>
+<p class="price">2999</p>
+</div>
+
+<!-- 4 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b">
+<h3>Fire-Boltt Visionary</h3>
+<p class="price">3499</p>
+</div>
+
+<!-- 5 -->
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2EJc_qJGYBvUegz2m1BHyyHAdfCu-W8zgSQ&s">
+<h3>Fitbit Versa 4</h3>
+<p class="price">17999</p>
+</div>
+
+<!-- 6 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+<h3>Amazfit GTR 4</h3>
+<p class="price">12999</p>
+</div>
+
+<!-- 7 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12">
+<h3>Samsung Watch Active</h3>
+<p class="price">15999</p>
+</div>
+
+<!-- 8 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b">
+<h3>Boat Wave Ultima</h3>
+<p class="price">2499</p>
+</div>
+
+<!-- 9 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314">
+<h3>Realme Watch 3</h3>
+<p class="price">1999</p>
+</div>
+
+<!-- 10 -->
+<div class="card">
+<img src="https://imagescdn.thecollective.in/img/app/product/6/664543-6893471.jpg">
+<h3>Fossil Gen 6</h3>
+<p class="price">21999</p>
+</div>
+
+<!-- 11 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+<h3>Apple Watch SE</h3>
+<p class="price">28999</p>
+</div>
+
+<!-- 12 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12">
+<h3>Samsung Watch 5 Pro</h3>
+<p class="price">34999</p>
+</div>
+
+<!-- 13 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314">
+<h3>Noise Pro 5 Max</h3>
+<p class="price">3999</p>
+</div>
+
+<!-- 14 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b">
+<h3>Fire-Boltt Ninja</h3>
+<p class="price">1499</p>
+</div>
+
+<!-- 15 -->
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaWyM9MMr2xpEH5W4xHELrFEfTclqv2bnIsg&s">
+<h3>Fitbit Charge 5</h3>
+<p class="price">14999</p>
+</div>
+
+<!-- 16 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+<h3>Amazfit Bip U</h3>
+<p class="price">4999</p>
+</div>
+
+<!-- 17 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12">
+<h3>Samsung Fit 2</h3>
+<p class="price">2999</p>
+</div>
+
+<!-- 18 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314">
+<h3>Realme Watch 2</h3>
+<p class="price">2499</p>
+</div>
+
+<!-- 19 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b">
+<h3>Boat Storm Pro</h3>
+<p class="price">1999</p>
+</div>
+
+<!-- 20 -->
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5UG4fKzF6EyDkmtsGFgTxiTgkuUEE_rWbAg&s">
+<h3>Fossil Hybrid HR</h3>
+<p class="price">16999</p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

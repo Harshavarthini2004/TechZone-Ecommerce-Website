@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Laptops Collection</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#f4f6f8;
+}
+
+/* HEADER (NO EMOJI) */
+.header{
+background:linear-gradient(135deg,#111827,#2563eb);
+color:white;
+padding:20px;
+text-align:center;
+font-size:24px;
+font-weight:bold;
+}
+
+.container{
+padding:30px;
+}
+
+/* BACK BUTTON (NO SYMBOL) */
+.back{
+padding:10px 15px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin-bottom:20px;
+}
+
+.back:hover{
+background:#1e40af;
+}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
+/* CARD */
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:150px;
+object-fit:cover;
+}
+
+.card h3{
+margin:8px 0;
+font-size:15px;
+}
+
+/* PRICE (NO ₹ SYMBOL) */
+.price{
+color:green;
+font-weight:bold;
+margin-bottom:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+Laptops Collection
+</div>
+
+<div class="container">
+
+<button class="back" onclick="location.href='product.php'">Back</button>
+
+<div class="grid">
+
+<!-- 1 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
+<h3>MacBook Air M2</h3>
+<p class="price">114999</p>
+</div>
+
+<!-- 2 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853">
+<h3>Dell XPS 13</h3>
+<p class="price">129999</p>
+</div>
+
+<!-- 3 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef">
+<h3>Asus ROG Gaming</h3>
+<p class="price">149999</p>
+</div>
+
+
+
+<!-- 5 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2">
+<h3>Lenovo Legion</h3>
+<p class="price">109999</p>
+</div>
+
+<!-- 6 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f">
+<h3>Acer Aspire 7</h3>
+<p class="price">55999</p>
+</div>
+
+<!-- 7 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1">
+<h3>MSI Modern 14</h3>
+<p class="price">62999</p>
+</div>
+
+<!-- 8 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
+<h3>MacBook Pro M3</h3>
+<p class="price">189999</p>
+</div>
+
+<!-- 9 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3">
+<h3>Samsung Galaxy Book</h3>
+<p class="price">85999</p>
+</div>
+
+
+
+<!-- 11 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2">
+<h3>Lenovo IdeaPad Slim</h3>
+<p class="price">48999</p>
+</div>
+
+<!-- 12 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef">
+<h3>Asus TUF Gaming</h3>
+<p class="price">95999</p>
+</div>
+
+<!-- 13 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7">
+<h3>HP Envy</h3>
+<p class="price">88999</p>
+</div>
+
+<!-- 14 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
+<h3>MacBook Air M1</h3>
+<p class="price">89999</p>
+</div>
+
+<!-- 15 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2">
+<h3>Lenovo Yoga Slim</h3>
+<p class="price">79999</p>
+</div>
+
+<!-- 16 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef">
+<h3>Asus ZenBook</h3>
+<p class="price">92999</p>
+</div>
+
+<!-- 17 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7">
+<h3>HP Omen Gaming</h3>
+<p class="price">125999</p>
+</div>
+
+<!-- 18 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
+<h3>MacBook Pro 14</h3>
+<p class="price">199999</p>
+</div>
+
+<!-- 19 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2">
+<h3>Lenovo ThinkPad</h3>
+<p class="price">110999</p>
+</div>
+
+<!-- 20 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef">
+<h3>Asus VivoBook</h3>
+<p class="price">52999</p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

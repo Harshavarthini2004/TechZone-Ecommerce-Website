@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smartphones Collection</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#f4f6f8;
+}
+
+/* HEADER (NO EMOJI) */
+.header{
+background:linear-gradient(135deg,#2563eb,#1e3a8a);
+color:white;
+padding:20px;
+text-align:center;
+font-size:24px;
+font-weight:bold;
+}
+
+.container{
+padding:30px;
+}
+
+/* BACK BUTTON (NO SYMBOL) */
+.back{
+padding:10px 15px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin-bottom:20px;
+}
+
+.back:hover{
+background:#1e40af;
+}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
+/* CARD */
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+/* IMAGE */
+.card img{
+width:100%;
+height:150px;
+object-fit:cover;
+}
+
+/* TITLE */
+.card h3{
+margin:8px 0;
+font-size:15px;
+}
+
+/* PRICE (NO ₹ SYMBOL) */
+.price{
+color:green;
+font-weight:bold;
+margin-bottom:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+Smartphones Collection
+</div>
+
+<div class="container">
+
+<button class="back" onclick="location.href='product.php'">Back</button>
+
+<div class="grid">
+
+<!-- 1 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+<h3>iPhone 15 Pro</h3>
+<p class="price">79999</p>
+</div>
+
+<!-- 2 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97">
+<h3>Samsung S24 Ultra</h3>
+<p class="price">74999</p>
+</div>
+
+<!-- 3 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e">
+<h3>OnePlus 12</h3>
+<p class="price">59999</p>
+</div>
+
+<!-- 4 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48">
+<h3>Google Pixel 8</h3>
+<p class="price">65999</p>
+</div>
+
+<!-- 5 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1580910051074-3eb694886505">
+<h3>Vivo X100</h3>
+<p class="price">49999</p>
+</div>
+
+<!-- 6 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1585060544812-6b45742d762f">
+<h3>Oppo Reno 11</h3>
+<p class="price">39999</p>
+</div>
+
+
+
+<!-- 8 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1556656793-08538906a9f8">
+<h3>iQOO 12</h3>
+<p class="price">52999</p>
+</div>
+
+<!-- 9 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1565849904461-04a58ad377e0">
+<h3>Nothing Phone 2</h3>
+<p class="price">44999</p>
+</div>
+
+<!-- 10 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+<h3>iPhone 14</h3>
+<p class="price">69999</p>
+</div>
+
+<!-- 11 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd">
+<h3>Samsung A54</h3>
+<p class="price">32999</p>
+</div>
+
+<!-- 12 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1603891128711-11b4b03bb138">
+<h3>Redmi Note 13</h3>
+<p class="price">18999</p>
+</div>
+
+
+
+<!-- 14 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1616348436168-de43ad0db179">
+<h3>Realme Narzo 60</h3>
+<p class="price">15999</p>
+</div>
+
+<!-- 15 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e">
+<h3>OnePlus Nord CE</h3>
+<p class="price">28999</p>
+</div>
+
+<!-- 16 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+<h3>iPhone SE</h3>
+<p class="price">39999</p>
+</div>
+
+<!-- 17 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97">
+<h3>Samsung M14</h3>
+<p class="price">14999</p>
+</div>
+
+<!-- 18 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e">
+<h3>OnePlus 11R</h3>
+<p class="price">43999</p>
+</div>
+
+<!-- 19 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48">
+<h3>Pixel 7a</h3>
+<p class="price">42999</p>
+</div>
+
+<!-- 20 -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1580910051074-3eb694886505">
+<h3>Vivo T2 Pro</h3>
+<p class="price">23999</p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
