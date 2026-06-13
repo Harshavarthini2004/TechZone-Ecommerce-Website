@@ -94,19 +94,19 @@ Add screenshots inside the screenshots folder and update them here.
 
 ### Login Page
 
-![Login](screenshots/login.png)
+![Login](login.png)
 
 ### Signup Page
 
-![Signup](screenshots/signup.png)
+![Signup](signup.png)
 
 ### Order Page
 
-![Order](screenshots/order.png)
+![Order](order.png)
 
 ### Order History
 
-![Order History](screenshots/order_history.png)
+![Order History](order_history.png)
 
 ## Installation Steps
 
